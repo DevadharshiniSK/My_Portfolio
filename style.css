@@ -215,9 +215,9 @@
 }
 .home__img{
   position: absolute;
-  right: 0;
-  bottom: 0;
-  width: 200px;
+ right: 0;
+ top: 40%;
+  width: 250px;
 }
 
 
@@ -361,15 +361,6 @@
   font-size: var(--smaller-font-size);
 }
 
-/* MEDIA QUERIES*/
-@media screen and (max-width: 320px) {
-  .home {
-    row-gap: 2rem;
-  }
-  .home__img {
-    width: 200px;
-  }
-}
 
 @media screen and (min-width: 576px) {
   .home {
@@ -451,8 +442,7 @@
   }
   .home__img {
     width: 400px;
-   top:20%;
-   right: 10%;
+    bottom: 10%;
     
   }
   .about__container {
@@ -483,6 +473,5 @@
   }
   .home__img {
     width: 450px;
-    position: absolute;
   }
 }
